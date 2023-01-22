@@ -75,10 +75,6 @@ database.db
 config.py
 test*
 teste*
-*.txt
 *.db-shm
 *.db-wal
 *.dccache
-
-
-
