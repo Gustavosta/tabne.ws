@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import os
 
 
-with open('src/schemas.sql', 'r', encoding='UTF-8') as f:
+with open('api/schemas.sql', 'r', encoding='UTF-8') as f:
     schema = f.read()
 
 
