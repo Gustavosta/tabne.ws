@@ -1,0 +1,4 @@
+fastapi
+Jinja2
+sqlalchemy
+psycopg2
