@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS url_data (
+    short_slug TEXT NOT NULL,
+    long_url TEXT NOT NULL,
+    clicks INT NOT NULL DEFAULT 0,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
